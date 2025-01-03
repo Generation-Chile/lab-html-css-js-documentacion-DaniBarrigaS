@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Cohorte 17</title> <!--aqui va el titulo de la pestaña en la web-->
+    <link rel="stylesheet" href="css.css"> <!--aqui vinculamos el archivo css-->
+</head> <!--aqui comienzo a editar mi pag web-->
+<body>
+    <header></header>
+    <section id="cta">
+        <h1>¡Full Stack <span class="travel">Developers!</span></h1> <!-- va el titulo y sus especificaciones de la pag web-->
+        <h2>Trabaja con nosotros</h2> <!--aqui un subtitulo-->
+        <p>La comunidad de desarrolladores Full Stack Developers!</p><!--aqui va el texto o parrafo-->
+        <button id="cta-form">¡Quiero saber más!</button><!--aqui hay un boton-->
+      </section><!--esto es una seccion de la web-->
+      <section id="form"><!--form es para enviar los datos a otro servidor-->
+        <h2>Si tienes dudas conversemos</h2>
+        <form>
+          <label for="name">Nombre:</label><!--label: se usa para formularios como cajas de texto-->
+          <input type="text" id="name" name="name"required><!--required indica que es obligatorio-->
+          <label for="email">Correo electrónico</label><!--for asocia con un control del formulario, este va con label-->
+          <input type="email" id="email" name="email" required><!--type especifica el tipo de elemento como un campo de entrada como un input-->
+          <label for="message">Deja un mensaje aqui:</label>
+          <textarea id="message" name="message" required></textarea><!--textarea crea un area de cuadro de texto para mucho texto-->
+          <button type="button" onclick="presionarBoton()">Enviar</button>
+        </form>
+      </section>
+      <footer><!--indica que es la parte inferior de la web-->
+        <p>&copy; 2024 FullStack Developers. Todos los derechos reservados.</p><!--los derechos de autor-->
+      </footer>
+  <script src="accion.js"></script><!--aqui se vincula con js-->
+</body>
+</html>

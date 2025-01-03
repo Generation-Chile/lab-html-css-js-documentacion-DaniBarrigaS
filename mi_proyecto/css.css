@@ -1,0 +1,73 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{ /*aqui van las indicaciones de la imagen*/
+    text-align: center;
+    padding: 50px 0;
+    background-image: url("1.jpg");
+    background-size: cover;
+    background-position: top;
+    color:  #aa1384;
+    height: 40vh;
+    overflow: hidden;
+}
+#cta h1{ /*aqui va el tamaño, margen y sombra del texto*/
+    font-size: 4em;
+    margin: 0;
+    margin-top: 10px;
+    text-shadow: 2px 2px 2px #c018d372;
+}
+#cta h1 span { /*aqui va el color del texto*/
+    color: #cf0aa1;
+  }
+
+  section { /*aqui va el padding y el texto centrado*/
+    padding: 50px 20px;
+    text-align: center;
+  }
+  button { /*aqui va el padding, tamaño de letra, color de fondo, color de letra, borde y cursor*/
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #8c04a4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+  section#form { /*aqui va el color de fondo*/
+    background-color: #d441aab4;
+  }
+
+  form { /*aqui va el margen, ancho maximo, alineacion del texto y margen inferior*/
+    margin: 0 auto;
+    max-width: 350px;
+    text-align: left;
+    margin-bottom: 100px;
+  }
+  form label { /*aqui va la visualizacion del bloque y margen inferior*/
+    display: block;
+    margin-bottom: 5px;
+  }
+  form input, /*aqui va el ancho, relleno, margen inferior, borde y radio del borde*/
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  form button { /*aqui va el ancho, relleno, margen superior y cursor*/
+    width: 50%;
+    margin-left: 25%;
+  }
+  footer { /*aqui va la alineacion del texto, color de fondo, color de letra, relleno y posicion*/
+    text-align: center;
+    background-color: #8801a7;
+    color: #fff;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
